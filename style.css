@@ -17,3 +17,20 @@ h2 {
 
 /* we can use inline as a shorthand for x axis
 and block as a shorthand for y axis */
+
+/* div {
+  display: grid;
+  place-items: center;
+  background: lime;
+  height: 10rem;
+  width: 10rem;
+} */
+div {
+  display: grid;
+  place-items: center;
+  background: lime;
+  inline-size: 10rem;
+  block-size: 10rem;
+}
+
+/* we can use size attributes isntead of width and height but tbh i dont see myself using this */
