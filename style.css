@@ -5,3 +5,15 @@
 p {
   text-align: end;
 }
+
+/* h2 {
+  border-right: 5px solid red;
+  border-left: 5px solid red;
+} */
+h2 {
+  border-inline: 5px solid red;
+  border-block: 5px solid green;
+}
+
+/* we can use inline as a shorthand for x axis
+and block as a shorthand for y axis */
